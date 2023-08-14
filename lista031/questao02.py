@@ -4,10 +4,14 @@ a) Resultado de suas adições
 b) Resultado de suas multiplicações
 '''
 
-num1 = float(input("Informe um número: "))
-num2 = float(input("Informe outro número: "))
-num3 = float(input("Informe outro número: "))
-num4 = float(input("Informe um último número: "))
+num1 = int(input("Informe um número: "))
+num2 = int(input("Informe outro número: "))
+num3 = int(input("Informe outro número: "))
+num4 = int(input("Informe um último número: "))
 
-print("A soma destes números são: ", num1 + num2 + num3 + num4)
-print("E a multiplicação destes números são: ", num1 * num2 * num3 * num4)
+
+soma = num1 + num2 + num3 + num4
+mult = num1 * num2 * num3 * num4
+
+print(f"A soma destes números é {soma}.")
+print(f"E a multiplicação destes números é {mult}.")

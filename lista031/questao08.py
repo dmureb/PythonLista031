@@ -7,5 +7,5 @@ valor do consumo médio do automóvel, em quilômetros por litro.
 dist = float(input("Qual a distância percorrida na viagem? "))
 cmedio = float(input("Qual é o valor do consumo médio do automóvel, em quilômetros por litro? "))
 litros = dist / cmedio
-print("A distância percorrida na viagem é de ", dist, "quilômetros e o valor do consumo médio do automóvel é de ", cmedio, "quilômetros por litro." )
-print("A quantidade de litros que o automóvel gastará em sua viagem é: ", litros, "litros." )
+print(f"A distância percorrida na viagem é de {dist:.0f} quilômetros e o valor do consumo médio do automóvel é de {cmedio:.0f} quilômetros por litro." )
+print(f"A quantidade de litros que o automóvel gastará em sua  viagem é: {litros:.0f} litros." )
